@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Create Your Account</h1>
+            <p>Join Fisher Services and start your project today.</p>
+            <form id="signupForm">
+
+                <div class="inpur-group">
+                    <label>Full Name</label>
+                    <input type="text" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Email Address</label>
+                    <input type="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password" id="password" required minlength="6">
+                </div>
+
+                <div class="input-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirmPassword" required>
+                </div>
+
+                <button type="submit">Sign Up</button>
+
+                <p class="login-text">
+                    Already have an account? <a href="#">Log in</a>
+                </p>
+
+                <div class="privacy-note">
+                    <span class="checkmark">✔</span>
+                    <span>We respect your privacy. Your data is secure and will never be shared</span>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
